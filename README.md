@@ -24,15 +24,14 @@ Former civil engineer & nurse now building hands-on skills in cybersecurity. My 
 
 ---
 
-## 📁 Featured Projects
+## 📁 Featured Projects *(Placeholders – Projects Coming Soon)*
 
-👉 **[VulnScanner-Py](#)** — Python script to automate local vulnerability scans  
-👉 **[CloudWatch Demo](#)** — Security logging in AWS with IAM & S3 integration  
-👉 **[TryHackMe Writeups](#)** — Labs completed with step-by-step analysis  
-👉 **[SIEM Setup Guide](#)** — Suricata + Wazuh + ELK Stack build on Debian
+👉 **VulnScanner-Py** — Python script to automate local vulnerability scans  
+👉 **CloudWatch Demo** — Security logging in AWS with IAM & S3 integration  
+👉 **TryHackMe Writeups** — Labs completed with step-by-step analysis  
+👉 **SIEM Setup Guide** — Suricata + Wazuh + ELK Stack build on Debian
 
-> *(Replace these with your actual repos or create placeholder repos for now)*
-
+> ⚠️ These are planned or in-progress projects. Repositories will be added as work develops during certification journey (A+ → CySA+ → eJPT).
 ---
 
 ## 🧭 My Goal
