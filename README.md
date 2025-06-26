@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Rui Almeida
 
-🔐 **Cybersecurity Career Pivot** | Blue Team Focus | Remote-Ready (UK/EU)
+🔐 **Blue Team Cybersecurity Analyst (Trainee) | Career Pivot – RN + Engineer | Remote-Ready (UK/EU)**
 
 Former civil engineer & nurse now building hands-on skills in cybersecurity. My current focus is on Blue Team defensive tools and cloud security. I’m working toward a professional transition into a fully remote cybersecurity analyst role by 2027.
 
