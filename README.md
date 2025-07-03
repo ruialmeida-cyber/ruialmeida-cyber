@@ -1,44 +1,22 @@
-# 👋 Hi, I'm Rui Almeida
+Hi, I'm Rui Almeida  
+Systems & Security Enthusiast | Clinical & Engineering Background | Remote-Ready (UK/EU)
 
-🔐 **Blue Team Cybersecurity Analyst (Trainee) | Career Pivot – RN + Engineer | Remote-Ready (UK/EU)**
+With experience in civil engineering and nursing, I’m expanding my skills in secure systems, automation, and cloud technologies — aiming to strengthen data integrity and resilience in regulated environments.
 
-Former civil engineer & nurse now building hands-on skills in cybersecurity. My current focus is on Blue Team defensive tools and cloud security. I’m working toward a professional transition into a fully remote cybersecurity analyst role by 2027.
+🎯 Current Focus  
+- Studying system fundamentals, security protocols, and cloud concepts (CompTIA Security+ & CySA+)  
+- Building hands-on labs in automation, logging, and incident detection  
+- Practicing real-world scenarios on TryHackMe and Hack The Box  
+- Learning AWS security, Python scripting, and Linux system tools
 
----
+📁 In-Progress Projects (coming soon)  
+- Python scripts for system scans and automation  
+- Cloud logging and IAM integration demos  
+- Documented lab writeups with step-by-step analysis  
+- Security information and event management (SIEM) setup guides
 
-## 🎯 Current Focus
-
-- 🛡️ Studying **CompTIA Security+** and **CySA+**
-- 📚 Preparing for **eJPT** (Junior Penetration Tester)
-- 👨‍💻 Automating security tasks with **Python & Bash**
-- 🔒 Learning **AWS Security** (Cloud Practitioner → Security Specialty)
-- 🚀 Building hands-on **SOC & SIEM labs**
-- 🔍 Practicing on **TryHackMe** and **Hack The Box**
-
----
-
-## 🧰 Tools & Platforms
-
-`Linux (Kali, Ubuntu)` • `Nmap` • `Wireshark` • `Burp Suite` • `Metasploit`  
-`Suricata` • `Splunk` • `Git` • `Markdown` • `Python` • `AWS`
-
----
-
-## 📁 Featured Projects *(Placeholders – Projects Coming Soon)*
-
-👉 **VulnScanner-Py** — Python script to automate local vulnerability scans  
-👉 **CloudWatch Demo** — Security logging in AWS with IAM & S3 integration  
-👉 **TryHackMe Writeups** — Labs completed with step-by-step analysis  
-👉 **SIEM Setup Guide** — Suricata + Wazuh + ELK Stack build on Debian
-
-> ⚠️ These are planned or in-progress projects. Repositories will be added as work develops during certification journey (A+ → CySA+ → eJPT).
----
-
-## 🧭 My Goal
-
-To work remotely as a **Cybersecurity Analyst (Blue Team)** by mid-2027 —  
-focusing on **vulnerability management**, **cloud security**, and **incident detection** for UK/EU companies.
-
+🧭 Goal  
+To apply interdisciplinary skills to help build secure, reliable, and future-ready digital infrastructure in healthcare and other regulated sectors.
 ---
 
 ## 📬 Let’s Connect
