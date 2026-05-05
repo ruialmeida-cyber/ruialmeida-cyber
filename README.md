@@ -1,24 +1,26 @@
-Hi, I'm Rui Almeida  
-Systems & Security Enthusiast | Clinical & Engineering Background | Remote-Ready (UK/EU)
+Identity & Access Management (IAM) | Microsoft Entra ID | Azure Cloud Security | SOC Fundamentals
 
-With a multidisciplinary background in civil engineering and nursing, I’m focused on expanding my expertise in secure systems, automation, and cloud technologies. My work aims to enhance data integrity and system resilience within regulated and complex environments.
+I focus on identity-centric cloud security, building hands-on experience with Microsoft Entra ID, authentication telemetry, and role-based access control (RBAC) within Azure environments.
 
-🎯 Current Focus  
-- Studying system fundamentals, security protocols, and cloud concepts (CompTIA Security+ & CySA+)  
-- Building hands-on labs around automation, logging, and incident detection  
-- Practicing real-world scenarios on TryHackMe and Hack The Box  
-- Developing skills in AWS security, Python scripting, and Linux system administration
+My work is centred on understanding how identity behaves in practice through structured labs involving identity lifecycle management, sign-in log analysis, and directory-level access control.
 
-📁 In-Progress Projects (coming soon)  
-- Python-based system scan and automation scripts  
-- Cloud logging and IAM integration demos  
-- Detailed lab writeups with step-by-step analysis  
-- Guides for setting up Security Information and Event Management (SIEM) systems
+Core Focus Areas:
+- Microsoft Entra ID identity lifecycle (provisioning, access assignment, governance)
+- Authentication and sign-in telemetry analysis
+- Role-Based Access Control (RBAC) and group-based access design
+- Cloud identity security concepts in Azure environments
+- Structured investigation of identity and access events
 
-🧭 Goal  
-Apply interdisciplinary skills to develop secure, reliable, and future-ready digital infrastructure in healthcare and other regulated sectors.
+Projects:
+- Entra ID Identity Lifecycle & Authentication Analysis (IAM Lab)
+- Windows Identity Telemetry Behaviour Analysis
+- WSL2 Cloud Security Lab Environment (Azure-aligned workflow design)
+- Legacy System Security & Infrastructure Foundations
 
-📬 Let’s Connect  
-🌍 LinkedIn  
-✉️ rui.almeidadacunha@gmail.com  
-📓 Blog coming soon
+Approach:
+I work with an evidence-based mindset, using exported logs, structured analysis, and reproducible lab environments to understand identity behaviour in cloud systems. Each project is designed to reflect real-world IAM and cloud security workflows rather than isolated tool usage.
+
+Career Direction:
+Currently developing towards Azure Identity and Access Management roles aligned with SC-300, focusing on cloud identity engineering, authentication systems, and enterprise IAM operations.
+
+Evidence-based learning, structured thinking, and identity-first security design are the foundation of my development.
