@@ -1,34 +1,71 @@
-IAM Engineering Progression Map
+# IAM Engineering Progression Map
 
-01 Portfolio Hub
-02 WSL2 Hybrid Lab Foundations
-03 Endpoint Authentication Behaviour Analysis
-04 Entra ID Authentication & RBAC
-05 Identity Drift & Governance Analysis
+01 Portfolio Hub  
+02 WSL2 Hybrid Lab Foundations  
+03 Endpoint Authentication Behaviour Analysis  
+04 Entra ID Authentication & RBAC  
+05 Identity Drift & Governance Analysis  
 
-Identity & Access Management (IAM) | Microsoft Entra ID | Azure Cloud Security | SOC Fundamentals
+---
 
-I focus on identity-centric cloud security, building hands-on experience with Microsoft Entra ID, authentication telemetry, and role-based access control (RBAC) within Azure environments.
+# Identity & Access Management (IAM) | Microsoft Entra ID | Azure Cloud Security | SOC Fundamentals
 
-My work is centred on understanding how identity behaves in practice through structured labs involving identity lifecycle management, sign-in log analysis, and directory-level access control.
+I work in identity-focused cloud security, building practical experience with Microsoft Entra ID, authentication behaviour, and role-based access control in Azure environments.
 
-Core Focus Areas:
-- Microsoft Entra ID identity lifecycle (provisioning, access assignment, governance)
-- Authentication and sign-in telemetry analysis
-- Role-Based Access Control (RBAC) and group-based access design
-- Cloud identity security concepts in Azure environments
-- Structured investigation of identity and access events
+Rather than treating IAM as isolated concepts, I focus on how identity behaves across real systems — from onboarding and authentication through to access changes and longer-term drift.
 
-Projects:
-- Entra ID Identity Lifecycle & Authentication Analysis (IAM Lab)
-- Windows Identity Telemetry Behaviour Analysis
-- WSL2 Cloud Security Lab Environment (Azure-aligned workflow design)
-- Legacy System Security & Infrastructure Foundations
+---
 
-Approach:
-I work with an evidence-based mindset, using exported logs, structured analysis, and reproducible lab environments to understand identity behaviour in cloud systems. Each project is designed to reflect real-world IAM and cloud security workflows rather than isolated tool usage.
+# Core Focus Areas
 
-Career Direction:
-Currently developing towards Azure Identity and Access Management roles aligned with SC-300, focusing on cloud identity engineering, authentication systems, and enterprise IAM operations.
+- Microsoft Entra ID identity lifecycle (provisioning, access assignment, governance)  
+- Authentication and sign-in behaviour analysis  
+- Role-Based Access Control (RBAC) and group-based access design  
+- Understanding how identity decisions affect security posture over time  
+- Investigating identity and access events through structured evidence  
 
-Evidence-based learning, structured thinking, and identity-first security design are the foundation of my development.
+---
+
+# How I Work (IAM Engineering Approach)
+
+When I look at an identity system, I usually break it down like this:
+
+1. I observe what is happening in the logs (authentication, access, changes)  
+2. I try to understand *why* that behaviour is occurring in the identity system  
+3. I map it back to IAM controls (RBAC, lifecycle rules, authentication policies)  
+4. I look for anything that feels risky, inconsistent, or unexpected over time  
+5. I document what I find in a structured way so it can be reviewed or reproduced  
+
+This is less about tools, and more about understanding identity as a system that changes over time.
+
+---
+
+# Projects
+
+- Entra ID Identity Lifecycle & Authentication Analysis (IAM Lab)  
+- Windows Identity Telemetry Behaviour Analysis  
+- WSL2 Cloud Security Lab Environment (built to simulate a realistic lab setup without heavy VM dependency)  
+- Legacy System Security & Infrastructure Foundations  
+
+---
+
+# Evidence-Based Work
+
+All my labs are based on exported logs and reproducible environments. I prefer working from real data rather than abstract examples, because IAM issues usually only become clear when you see how identity behaves over time.
+
+---
+
+# Career Direction
+
+I am currently building towards Azure Identity and Access Management roles (SC-300 path), with a focus on:
+
+- Understanding identity systems in real enterprise environments  
+- Authentication and access control analysis  
+- Early-stage governance and risk awareness in IAM  
+- Developing toward more advanced detection and security thinking over time  
+
+---
+
+# Final Note
+
+Identity security is not just about configuring access correctly once — it’s about understanding how that access behaves, evolves, and sometimes drifts over time. That is what I’m trying to build skill in.
