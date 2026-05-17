@@ -12,7 +12,7 @@
 
 I work in identity-focused cloud security, building practical experience with Microsoft Entra ID, authentication behaviour, and role-based access control in Azure environments.
 
-Rather than treating IAM as isolated concepts, I focus on how identity behaves across real systems — from onboarding and authentication through to access changes and longer-term drift.
+Rather than treating IAM as isolated concepts, I focus on how identity behaves across real systems — from onboarding and authentication through to access changes and longer-term drift, and what those changes mean for security over time.
 
 ---
 
@@ -28,15 +28,15 @@ Rather than treating IAM as isolated concepts, I focus on how identity behaves a
 
 # How I Work (IAM Engineering Approach)
 
-When I look at an identity system, I usually break it down like this:
+When I look at an identity system, I break it down in a simple way:
 
 1. I observe what is happening in the logs (authentication, access, changes)  
-2. I try to understand *why* that behaviour is occurring in the identity system  
+2. I try to understand why that behaviour is happening in the identity system  
 3. I map it back to IAM controls (RBAC, lifecycle rules, authentication policies)  
-4. I look for anything that feels risky, inconsistent, or unexpected over time  
-5. I document what I find in a structured way so it can be reviewed or reproduced  
+4. I look for risks, inconsistencies, or signs of identity drift over time  
+5. I document findings so they can be reviewed, reproduced, and reasoned about  
 
-This is less about tools, and more about understanding identity as a system that changes over time.
+This is less about tools, and more about understanding identity as a system that evolves and can quietly drift into risk.
 
 ---
 
@@ -51,7 +51,7 @@ This is less about tools, and more about understanding identity as a system that
 
 # Evidence-Based Work
 
-All my labs are based on exported logs and reproducible environments. I prefer working from real data rather than abstract examples, because IAM issues usually only become clear when you see how identity behaves over time.
+All my labs are based on exported logs and reproducible environments. I prefer working from real data rather than abstract examples, because IAM issues often only become visible when you observe how identity behaves over time.
 
 ---
 
@@ -68,4 +68,4 @@ I am currently building towards Azure Identity and Access Management roles (SC-3
 
 # Final Note
 
-Identity security is not just about configuring access correctly once — it’s about understanding how that access behaves, evolves, and sometimes drifts over time. That is what I’m trying to build skill in.
+Identity security is not just about configuring access correctly once — it’s about understanding how access behaves, evolves, and sometimes drifts into risk over time. That is the skill I am building.
