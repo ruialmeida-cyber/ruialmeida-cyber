@@ -1,3 +1,11 @@
+IAM Engineering Progression Map
+
+01 Portfolio Hub
+02 WSL2 Hybrid Lab Foundations
+03 Endpoint Authentication Behaviour Analysis
+04 Entra ID Authentication & RBAC
+05 Identity Drift & Governance Analysis
+
 Identity & Access Management (IAM) | Microsoft Entra ID | Azure Cloud Security | SOC Fundamentals
 
 I focus on identity-centric cloud security, building hands-on experience with Microsoft Entra ID, authentication telemetry, and role-based access control (RBAC) within Azure environments.
