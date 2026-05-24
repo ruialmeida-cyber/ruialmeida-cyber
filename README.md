@@ -1,4 +1,4 @@
-# IAM Engineering Progression Map — Identity Security Engineering Portfolio (Entra ID, authentication telemetry, RBAC, identity drift detection)
+# IAM Engineering Progression Map — Identity Security Engineering (Entra ID, authentication telemetry, RBAC, identity drift detection)
 
 01 Portfolio Hub  
 02 WSL2 Hybrid Lab Foundations  
