@@ -1,71 +1,86 @@
-# IAM Engineering Progression Map — Identity Security Engineering (Entra ID, authentication telemetry, RBAC, identity drift detection)
+# IAM Engineering Progression Map — Identity Security Engineering (Microsoft Entra ID)
 
-01 Portfolio Hub  
-02 WSL2 Hybrid Lab Foundations  
-03 Endpoint Authentication Behaviour Analysis  
-04 Entra ID Authentication & RBAC  
-05 Identity Drift & Governance Analysis  
+Identity & Access Management (IAM) | Microsoft Entra ID | Azure Cloud Security | SOC Fundamentals
 
 ---
 
-# Identity & Access Management (IAM) | Microsoft Entra ID | Azure Cloud Security | SOC Fundamentals
+## Overview
 
-I work in identity-focused cloud security, building practical experience with Microsoft Entra ID, authentication behaviour, and role-based access control in Azure environments.
+This portfolio demonstrates a structured progression in identity security engineering using Microsoft Entra ID, Windows authentication telemetry, and RBAC-based access control analysis.
 
-Rather than treating IAM as isolated concepts, I focus on how identity behaves across real systems — from onboarding and authentication through to access changes and longer-term drift, and what those changes mean for security over time.
+The focus is on understanding how identity behaves across systems — from authentication and access assignment through to governance and identity drift over time.
 
----
-
-# Core Focus Areas
-
-- Microsoft Entra ID identity lifecycle (provisioning, access assignment, governance)  
-- Authentication and sign-in behaviour analysis  
-- Role-Based Access Control (RBAC) and group-based access design  
-- Understanding how identity decisions affect security posture over time  
-- Investigating identity and access events through structured evidence  
+Rather than treating IAM as isolated concepts, this work analyses identity as a system that evolves continuously and can introduce risk through misalignment, accumulation of access, or behavioural drift.
 
 ---
 
-# How I Work (IAM Engineering Approach)
+## Core Focus Areas
 
-When I look at an identity system, I break it down in a simple way:
-
-1. I observe what is happening in the logs (authentication, access, changes)  
-2. I try to understand why that behaviour is happening in the identity system  
-3. I map it back to IAM controls (RBAC, lifecycle rules, authentication policies)  
-4. I look for risks, inconsistencies, or signs of identity drift over time  
-5. I document findings so they can be reviewed, reproduced, and reasoned about  
-
-This is less about tools, and more about understanding identity as a system that evolves and can quietly drift into risk.
+- Microsoft Entra ID identity lifecycle (provisioning, authentication, access governance)
+- Authentication and sign-in behaviour analysis
+- Role-Based Access Control (RBAC) and group-based access design
+- Identity drift and access evolution over time
+- Evidence-based IAM analysis using exported logs
 
 ---
 
-# Projects
+## IAM Engineering Approach
 
-- Entra ID Identity Lifecycle & Authentication Analysis (IAM Lab)  
-- Windows Identity Telemetry Behaviour Analysis  
-- WSL2 Cloud Security Lab Environment (built to simulate a realistic lab setup without heavy VM dependency)  
-- Legacy System Security & Infrastructure Foundations  
+Each investigation follows a structured reasoning model:
 
----
+- Observe identity behaviour (authentication, access changes, system events)
+- Interpret why the behaviour occurred within the IAM system
+- Map it to IAM controls (RBAC, policies, lifecycle rules, governance)
+- Identify risks, inconsistencies, or drift over time
+- Document findings in a reproducible, evidence-based format
 
-# Evidence-Based Work
-
-All my labs are based on exported logs and reproducible environments. I prefer working from real data rather than abstract examples, because IAM issues often only become visible when you observe how identity behaves over time.
-
----
-
-# Career Direction
-
-I am currently building towards Azure Identity and Access Management roles (SC-300 path), with a focus on:
-
-- Understanding identity systems in real enterprise environments  
-- Authentication and access control analysis  
-- Early-stage governance and risk awareness in IAM  
-- Developing toward more advanced detection and security thinking over time  
+This approach prioritises reasoning over tooling, focusing on identity as a dynamic system rather than static configuration.
 
 ---
 
-# Final Note
+## Projects
 
-Identity security is not just about configuring access correctly once — it’s about understanding how access behaves, evolves, and sometimes drifts into risk over time. That is the skill I am building.
+### 01 — Portfolio Hub
+Overview of IAM engineering progression and lab structure.
+
+### 02 — WSL2 Hybrid Lab Foundations
+Infrastructure setup for identity security experimentation in a lightweight hybrid environment.
+
+### 03 — Endpoint Authentication Behaviour Analysis
+Windows Security Event Log analysis focused on authentication patterns and identity telemetry.
+
+### 04 — Entra ID Authentication & RBAC
+Analysis of authentication vs authorization within Microsoft Entra ID, focusing on RBAC logic and access control.
+
+### 05 — Identity Drift & Governance Analysis
+Investigation of identity state changes over time using audit logs and group membership evolution.
+
+---
+
+## Evidence-Based Work
+
+All labs are built using exported logs, reproducible environments, and structured analysis.
+
+The focus is on observable identity behaviour rather than theoretical scenarios, reflecting how IAM issues appear in real systems.
+
+---
+
+## Career Direction
+
+Current focus areas:
+
+- Microsoft Entra ID (SC-300 aligned learning path)
+- Identity and Access Management operations
+- Authentication and access control analysis
+- Early-stage identity governance and risk awareness
+- Progression toward cloud security and detection engineering roles
+
+---
+
+## Final Note
+
+Identity security is not only about configuring access correctly at a point in time.
+
+It is about understanding how identity behaves, evolves, and sometimes drifts into unintended risk across systems.
+
+That is the capability this portfolio is designed to demonstrate.
