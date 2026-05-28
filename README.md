@@ -6,7 +6,7 @@ Identity & Access Management (IAM) | Microsoft Entra ID | Azure Cloud Security |
 
 ## Overview
 
-This portfolio demonstrates a structured progression in identity security engineering using Microsoft Entra ID, Windows authentication telemetry, and RBAC-based access control analysis.
+This portfolio demonstrates a structured progression in identity security engineering using Microsoft Entra ID, Windows authentication telemetry, and Role-Based Access Control (RBAC) analysis.
 
 The focus is on understanding how identity behaves across systems — from authentication and access assignment through to governance and identity drift over time.
 
