@@ -1,86 +1,70 @@
-# IAM Engineering Progression Map — Identity Security Engineering (Microsoft Entra ID)
+IAM Progression Portfolio — Microsoft Entra ID & Identity Operations
 
-Identity & Access Management (IAM) | Microsoft Entra ID | Azure Cloud Security | SOC Fundamentals
+Identity & Access Management (IAM) | Microsoft Entra ID | Azure Fundamentals | Security Log Analysis
 
----
+Overview
 
-## Overview
+This portfolio documents hands-on learning in Identity & Access Management using Microsoft Entra ID, Windows authentication logs, and Role-Based Access Control (RBAC).
 
-This portfolio demonstrates a structured progression in identity security engineering using Microsoft Entra ID, Windows authentication telemetry, and Role-Based Access Control (RBAC) analysis.
+The focus is on building practical understanding of how identity works in real environments, including authentication, access assignment, and identity lifecycle processes.
 
-The focus is on understanding how identity behaves across systems — from authentication and access assignment through to governance and identity drift over time.
+Work is based on lab environments and exported logs to simulate common IAM operational scenarios.
 
-Rather than treating IAM as isolated concepts, this work analyses identity as a system that evolves continuously and can introduce risk through misalignment, accumulation of access, or behavioural drift.
+Core Focus Areas
 
----
+• Microsoft Entra ID identity lifecycle (user provisioning, authentication, access management)
+• Authentication and sign-in log analysis
+• Role-Based Access Control (RBAC) and group-based access concepts
+• Identity lifecycle processes (joiner–mover–leaver)
+• Basic identity governance and access review concepts
+• Log-based identity troubleshooting and investigation
 
-## Core Focus Areas
+IAM Learning Approach
 
-- Microsoft Entra ID identity lifecycle (provisioning, authentication, access governance)
-- Authentication and sign-in behaviour analysis
-- Role-Based Access Control (RBAC) and group-based access design
-- Identity drift and access evolution over time
-- Evidence-based IAM analysis using exported logs
+Each lab follows a simple operational workflow:
 
----
+• Review authentication or access-related event data
+• Identify what happened in the identity system
+• Relate it to IAM concepts (RBAC, lifecycle, policies)
+• Identify potential misconfigurations or access issues
+• Document findings in a clear, repeatable format
 
-## IAM Engineering Approach
+This approach focuses on understanding identity behaviour using real logs and system outputs.
 
-Each investigation follows a structured reasoning model:
+Projects
 
-- Observe identity behaviour (authentication, access changes, system events)
-- Interpret why the behaviour occurred within the IAM system
-- Map it to IAM controls (RBAC, policies, lifecycle rules, governance)
-- Identify risks, inconsistencies, or drift over time
-- Document findings in a reproducible, evidence-based format
+01 — Portfolio Hub
+Overview of IAM learning structure and progression
 
-This approach prioritises reasoning over tooling, focusing on identity as a dynamic system rather than static configuration.
+02 — WSL2 Lab Environment Setup
+Hybrid Windows/Linux lab used for identity and log analysis practice
 
----
+03 — Windows Authentication Log Analysis
+Investigation of login events and authentication patterns using Security Event Logs
 
-## Projects
+04 — Entra ID Authentication & RBAC Basics
+Understanding how authentication and access control work in Microsoft Entra ID
 
-### 01 — Portfolio Hub
-Overview of IAM engineering progression and lab structure.
+05 — Identity Lifecycle & Access Changes
+Tracking how user access changes over time using logs and simulated scenarios
 
-### 02 — WSL2 Hybrid Lab Foundations
-Infrastructure setup for identity security experimentation in a lightweight hybrid environment.
+Evidence-Based Work
 
-### 03 — Endpoint Authentication Behaviour Analysis
-Windows Security Event Log analysis focused on authentication patterns and identity telemetry.
+All work is based on lab environments and exported logs.
 
-### 04 — Entra ID Authentication & RBAC
-Analysis of authentication vs authorization within Microsoft Entra ID, focusing on RBAC logic and access control.
+The goal is to understand how IAM issues appear in real systems using observable authentication and access data.
 
-### 05 — Identity Drift & Governance Analysis
-Investigation of identity state changes over time using audit logs and group membership evolution.
-
----
-
-## Evidence-Based Work
-
-All labs are built using exported logs, reproducible environments, and structured analysis.
-
-The focus is on observable identity behaviour rather than theoretical scenarios, reflecting how IAM issues appear in real systems.
-
----
-
-## Career Direction
+Career Direction
 
 Current focus areas:
+• Microsoft Entra ID (SC-300 aligned learning path)
+• IAM operational support roles
+• Authentication and access control analysis
+• Identity lifecycle fundamentals
+• Progression toward cloud security and identity engineering roles
 
-- Microsoft Entra ID (SC-300 aligned learning path)
-- Identity and Access Management operations
-- Authentication and access control analysis
-- Early-stage identity governance and risk awareness
-- Progression toward cloud security and detection engineering roles
+Final Note
 
----
+Identity management is about understanding how access is granted, used, and changed across systems.
 
-## Final Note
-
-Identity security is not only about configuring access correctly at a point in time.
-
-It is about understanding how identity behaves, evolves, and sometimes drifts into unintended risk across systems.
-
-That is the capability this portfolio is designed to demonstrate.
+This portfolio focuses on building practical IAM support capability using real authentication and access data.
