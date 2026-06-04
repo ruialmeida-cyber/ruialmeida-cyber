@@ -41,20 +41,23 @@ This approach focuses on understanding identity behaviour using real logs and sy
 
 ## Projects
 
-**01 — Portfolio Hub**  
-Overview of IAM learning structure and progression
+01 — Portfolio Hub (IAM Learning Architecture)
+Structured overview of identity and security learning progression across cloud, authentication, and detection domains
 
-**02 — WSL2 Lab Environment Setup**  
-Hybrid Windows/Linux lab used for identity and log analysis practice
+02 — WSL2 Hybrid Security Lab Environment
+Cross-platform Windows/Linux lab enabling identity, authentication, and log analysis experimentation in realistic enterprise-like conditions
 
-**03 — Windows Authentication Log Analysis**  
-Investigation of login events and authentication patterns using Security Event Logs
+03 — Windows Authentication & Security Log Analysis
+Investigation of authentication patterns using Windows Security Event Logs to identify login behaviour and access anomalies
 
-**04 — Entra ID Authentication & RBAC Basics**  
-Understanding how authentication and access control work in Microsoft Entra ID
+04 — Microsoft Entra ID Authentication & RBAC Foundations
+Core identity and access control analysis in Entra ID, focusing on authentication flows, RBAC enforcement, and access boundaries
 
-**05 — Identity Lifecycle & Access Changes**  
-Tracking how user access changes over time using logs and simulated scenarios
+05 — Identity Lifecycle & Access Change Analysis (Event-Based IAM)
+Audit-log-driven reconstruction of identity behaviour, focusing on group membership changes and access evolution over time
+
+06 — Microsoft Entra ID Identity Operations (State vs Event Correlation)
+Graph API-based identity state validation combined with cross-reference to historical identity drift (Lab 05), demonstrating the difference between current state and event-driven identity change models
 
 ---
 
