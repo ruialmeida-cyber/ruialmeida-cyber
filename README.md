@@ -11,23 +11,21 @@ The focus is on building practical understanding of how identity works in real e
 Work is based on lab environments and exported logs to simulate common IAM operational scenarios.
 
 Core Focus Areas
-
-• Microsoft Entra ID identity lifecycle (user provisioning, authentication, access management)
-• Authentication and sign-in log analysis
-• Role-Based Access Control (RBAC) and group-based access concepts
-• Identity lifecycle processes (joiner–mover–leaver)
-• Basic identity governance and access review concepts
-• Log-based identity troubleshooting and investigation
-
+Microsoft Entra ID identity lifecycle (user provisioning, authentication, access management)
+Authentication and sign-in log analysis
+Role-Based Access Control (RBAC) and group-based access concepts
+Identity lifecycle processes (joiner–mover–leaver)
+Basic identity governance and access review concepts
+Log-based identity troubleshooting and investigation
 IAM Learning Approach
 
 Each lab follows a simple operational workflow:
 
-• Review authentication or access-related event data
-• Identify what happened in the identity system
-• Relate it to IAM concepts (RBAC, lifecycle, policies)
-• Identify potential misconfigurations or access issues
-• Document findings in a clear, repeatable format
+Review authentication or access-related event data
+Identify what happened in the identity system
+Relate it to IAM concepts (RBAC, lifecycle, policies)
+Identify potential misconfigurations or access issues
+Document findings in a clear, repeatable format
 
 This approach focuses on understanding identity behaviour using real logs and system outputs.
 
@@ -57,12 +55,12 @@ The goal is to understand how IAM issues appear in real systems using observable
 Career Direction
 
 Current focus areas:
-• Microsoft Entra ID (SC-300 aligned learning path)
-• IAM operational support roles
-• Authentication and access control analysis
-• Identity lifecycle fundamentals
-• Progression toward cloud security and identity engineering roles
 
+Microsoft Entra ID (SC-300 aligned learning path)
+IAM operational support roles
+Authentication and access control analysis
+Identity lifecycle fundamentals
+Progression toward cloud security and identity engineering roles
 Final Note
 
 Identity management is about understanding how access is granted, used, and changed across systems.
