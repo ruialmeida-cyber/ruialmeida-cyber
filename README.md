@@ -492,10 +492,6 @@ Active Directory
 Microsoft 365
 Azure Infrastructure
 
-                     |
-            |
-            v
-
 Identity Layer
 
 Microsoft Entra ID
@@ -504,10 +500,6 @@ Authorisation
 RBAC
 Identity Governance
 Privileged Access
-
-                   |
-            |
-            v                 
 
 Security Layer
 
