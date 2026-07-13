@@ -485,28 +485,34 @@ The objective is to understand how administrators support secure access, monitor
 
 This portfolio demonstrates how Microsoft enterprise environments operate as interconnected systems.
 
-Microsoft Infrastructure Layer
+## Microsoft Infrastructure Layer
 
-Windows Server
-Active Directory
-Microsoft 365
-Azure Infrastructure
+| Technology | Purpose |
+|---|---|
+| Windows Server | Server administration and enterprise infrastructure |
+| Active Directory | Traditional identity and domain services |
+| Microsoft 365 | Cloud productivity and user services |
+| Azure Infrastructure | Cloud resources and platform services |
 
-Identity Layer
+## Identity Layer
 
-Microsoft Entra ID
-Authentication
-Authorisation
-RBAC
-Identity Governance
-Privileged Access
+| Technology | Purpose |
+|---|---|
+| Microsoft Entra ID | Cloud identity and access management |
+| Authentication | Verifying user and device identity |
+| Authorisation | Controlling access permissions |
+| RBAC | Managing role-based access control |
+| Identity Governance | Managing identity lifecycle and access decisions |
+| Privileged Access | Protecting administrative permissions |
 
-Security Layer
+## Security Layer
 
-Monitoring
-Detection
-Investigation
-Response
+| Capability | Purpose |
+|---|---|
+| Monitoring | Observing system and identity activity |
+| Detection | Identifying suspicious behaviour |
+| Investigation | Analysing events and evidence |
+| Response | Taking corrective security actions |
 
 
 The architecture reflects the reality of modern Microsoft administration:
