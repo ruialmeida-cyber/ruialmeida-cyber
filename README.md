@@ -492,8 +492,9 @@ Active Directory
 Microsoft 365
 Azure Infrastructure
 
+                     |
             |
-            |
+            v
 
 Identity Layer
 
@@ -504,8 +505,9 @@ RBAC
 Identity Governance
 Privileged Access
 
+                   |
             |
-            |
+            v                 
 
 Security Layer
 
