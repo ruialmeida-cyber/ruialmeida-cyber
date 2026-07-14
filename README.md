@@ -1,26 +1,26 @@
 # Microsoft Infrastructure Administration & Identity Portfolio
 
-> **Windows Server | Active Directory | Microsoft Entra ID | Microsoft Azure | Microsoft 365 | PowerShell**
+Microsoft 365 | Windows Server | Active Directory | Microsoft Entra ID | Microsoft Azure | PowerShell
 
 ---
 
 # Status
 
-**Active Development**
+Active Development
 
-A structured, hands-on portfolio demonstrating practical Microsoft infrastructure administration across on-premises and cloud environments.
+A structured, hands-on portfolio demonstrating practical Microsoft infrastructure administration across on-premises, hybrid, and cloud environments.
 
 ---
 
 # Career Focus
 
-**Junior Microsoft Systems Administrator with Identity & Access Management (IAM) Strength**
+## Junior Microsoft Systems Administrator with Identity and Access Management (IAM) Strength
 
-This portfolio demonstrates the progressive development of practical administration skills across the Microsoft enterprise ecosystem.
+This repository documents the progressive development of practical Microsoft enterprise administration skills through structured laboratory exercises and technical documentation.
 
-The objective is to build the knowledge and operational capability expected of a junior Microsoft Systems Administrator while developing a strong foundation in identity administration and cloud technologies.
+The objective is to build the practical knowledge expected of a junior Microsoft Systems Administrator while establishing a strong foundation in hybrid identity, cloud administration, and security-aware operations.
 
-The portfolio combines:
+The portfolio focuses on developing capability across:
 
 - Windows Server Administration
 - Active Directory
@@ -28,54 +28,64 @@ The portfolio combines:
 - Microsoft 365
 - Microsoft Azure
 - Hybrid Identity
-- PowerShell
+- Identity and Access Management (IAM)
+- PowerShell Administration
 - Enterprise Troubleshooting
-- Security-aware Administration
-- Professional Technical Documentation
+- Technical Documentation
 
-The long-term career direction is to specialise in Microsoft Identity Engineering and cloud security while maintaining broad Microsoft infrastructure administration capability.
+The long-term objective is to progress naturally from Microsoft infrastructure administration into Microsoft Identity Engineering and cloud security.
 
 ---
 
 # Portfolio Overview
 
-Modern Microsoft enterprise environments are no longer purely on-premises or purely cloud-based.
+Modern Microsoft enterprise environments are no longer built solely around on-premises infrastructure or cloud services.
 
-Instead, organisations increasingly operate **hybrid environments**, where traditional Windows infrastructure works alongside Microsoft cloud services.
+Instead, organisations increasingly operate hybrid environments where Windows Server, Active Directory, Microsoft Entra ID, Microsoft 365, and Microsoft Azure function together as a unified enterprise platform.
 
-This portfolio reflects that reality.
+This portfolio reflects that operational reality.
 
-Rather than studying Microsoft technologies individually, each laboratory demonstrates how infrastructure, identity, cloud services, and security interact inside a modern enterprise environment.
+Rather than studying Microsoft technologies independently, each laboratory demonstrates how infrastructure, identity, cloud services, administration, and security interact within modern Microsoft environments.
 
-The learning progression follows a logical administration pathway:
+The learning progression follows a structured path:
 
-```
+```text
 Windows Infrastructure
-        ↓
+        │
+        ▼
 Active Directory
-        ↓
+        │
+        ▼
 Microsoft Entra ID
-        ↓
+        │
+        ▼
 Hybrid Identity
-        ↓
-Microsoft 365
-        ↓
+        │
+        ▼
+Microsoft 365 Administration
+        │
+        ▼
 Azure Administration
-        ↓
+        │
+        ▼
+Enterprise Administration
+        │
+        ▼
 Identity Security
-        ↓
+        │
+        ▼
 Detection Engineering
 ```
 
-Each laboratory builds on previous knowledge while introducing progressively more advanced administration concepts.
+Each laboratory builds directly upon previous knowledge while introducing progressively more advanced administration concepts.
 
 ---
 
 # Portfolio Objectives
 
-The primary objective of this repository is to demonstrate practical administration capability across interconnected Microsoft technologies.
+The primary objective of this repository is to demonstrate practical administration capability across the Microsoft enterprise ecosystem.
 
-The portfolio develops experience in:
+The portfolio develops practical experience in:
 
 - Windows Server administration
 - Active Directory administration
@@ -86,57 +96,68 @@ The portfolio develops experience in:
 - Identity and Access Management (IAM)
 - PowerShell administration
 - Enterprise troubleshooting
-- Technical documentation
 - Security-aware administration
+- Professional technical documentation
 
-Every laboratory follows a structured process based on implementation, validation, troubleshooting, investigation, and documentation.
+Every laboratory follows the same structured methodology:
 
-The emphasis is placed on understanding *why* Microsoft technologies operate as they do rather than simply following configuration guides.
+- Planning
+- Implementation
+- Validation
+- Troubleshooting
+- Evidence collection
+- Documentation
+- Lessons learned
+
+The emphasis is placed on understanding why Microsoft technologies operate as they do rather than simply following configuration guides.
 
 ---
 
-# Hybrid Laboratory Environment
+# Hybrid Laboratory Architecture
 
-This portfolio uses a **hybrid laboratory architecture** that combines local virtual infrastructure with Microsoft Azure.
+This portfolio uses a hybrid laboratory architecture combining local virtual infrastructure with Microsoft Azure.
 
-This approach reflects how many real organisations operate while providing an efficient and sustainable learning environment.
+This approach reflects how many organisations operate while providing an efficient and sustainable learning environment.
 
-The hybrid model also reduces cloud costs while allowing practical experience across both traditional and cloud-native technologies.
+It enables practical experience across both traditional Microsoft infrastructure and modern cloud administration without relying exclusively on Azure virtual machines.
 
 ---
 
 # Local Infrastructure
 
-The local laboratory is hosted using **Oracle VirtualBox**.
+Primary Platform
 
-VirtualBox provides a persistent Windows infrastructure for enterprise administration without consuming Azure compute resources.
+Oracle VirtualBox
 
-The local environment hosts technologies including:
+The local environment provides persistent enterprise infrastructure that can be rebuilt, modified, and tested without consuming Azure compute resources.
+
+Technologies hosted locally include:
 
 - Windows Server
 - Windows 11
-- Linux
-- Active Directory
+- Ubuntu Linux
+- Active Directory Domain Services
 - DNS
 - DHCP
 - Group Policy
 - File Services
 - IIS
 - PowerShell
+- Windows administration
 - Enterprise troubleshooting scenarios
 
-Using VirtualBox allows unrestricted experimentation, repeated rebuilds, and realistic infrastructure administration.
+Running these workloads locally enables unrestricted experimentation while closely reflecting traditional enterprise infrastructure.
 
 ---
 
-# Microsoft Azure Environment
+# Microsoft Azure
 
-Microsoft Azure is reserved for cloud-native services that cannot realistically be reproduced inside a local laboratory.
+Azure is reserved for services that are cloud-native or where practical experience requires Microsoft-hosted infrastructure.
 
-Azure services used throughout the portfolio include:
+Azure resources used throughout this portfolio include:
 
 - Microsoft Entra ID
-- Resource Groups
+- Azure Resource Groups
 - Virtual Networks
 - Network Security Groups
 - Azure Storage
@@ -149,62 +170,50 @@ Azure services used throughout the portfolio include:
 - Microsoft Sentinel
 - Azure Virtual Machines (when required)
 
-Cloud virtual machines are deployed only for laboratories that specifically require Azure compute resources.
+Azure virtual machines are deployed only when a laboratory specifically requires cloud compute resources.
 
-After each laboratory they are deallocated to minimise operational cost.
+After validation they are deallocated to minimise operational costs.
 
-This mirrors good cloud administration practice within production environments.
+This reflects good cloud administration practice while remaining within the limits of the Azure Free Account and Pay-As-You-Go model.
 
 ---
 
 # Laboratory Resource Strategy
 
-The portfolio deliberately separates workloads between VirtualBox and Azure.
+The portfolio deliberately separates workloads between Oracle VirtualBox and Microsoft Azure.
 
-## Oracle VirtualBox
+This approach maximises practical experience while avoiding unnecessary cloud expenditure.
 
-Used for:
+| Technology | Primary Platform |
+|------------|------------------|
+| Windows Server | Oracle VirtualBox |
+| Active Directory | Oracle VirtualBox |
+| DNS | Oracle VirtualBox |
+| DHCP | Oracle VirtualBox |
+| Group Policy | Oracle VirtualBox |
+| PowerShell | Oracle VirtualBox |
+| Windows Administration | Oracle VirtualBox |
+| Linux Administration | Oracle VirtualBox |
+| Enterprise Troubleshooting | Oracle VirtualBox |
+| Microsoft Entra ID | Microsoft Azure |
+| Azure Administration | Microsoft Azure |
+| Azure Networking | Microsoft Azure |
+| Azure Storage | Microsoft Azure |
+| Azure Monitoring | Microsoft Azure |
+| Azure Governance | Microsoft Azure |
+| Azure Automation | Microsoft Azure |
+| Microsoft Sentinel | Microsoft Azure |
+| Hybrid Identity | Oracle VirtualBox and Microsoft Azure |
 
-- Windows Server
-- Active Directory
-- DNS
-- DHCP
-- Group Policy
-- PowerShell
-- Windows administration
-- Linux administration
-- Enterprise troubleshooting
-
-The local infrastructure remains available continuously without cloud costs.
-
----
-
-## Microsoft Azure
-
-Used for:
-
-- Microsoft Entra ID
-- Azure Resource Management
-- Azure networking
-- Azure Storage
-- Azure monitoring
-- Azure governance
-- Azure security
-- Azure automation
-- Hybrid identity
-- Microsoft Sentinel
-
-This strategy maximises practical experience while remaining sustainable within Microsoft Azure Free Account and Pay-As-You-Go limits.
-
-It also reflects real-world hybrid Microsoft environments.
+This strategy reflects modern enterprise environments where traditional infrastructure and cloud services operate together rather than replacing one another.
 
 ---
 
 # Learning Methodology
 
-Each laboratory follows a consistent methodology.
+Every laboratory follows a consistent professional workflow.
 
-Every lab contains:
+Each laboratory includes:
 
 - Administrative scenario
 - Objectives
@@ -214,59 +223,75 @@ Every lab contains:
 - Troubleshooting
 - Evidence collection
 - Lessons learned
-- Technical documentation
+- Professional documentation
 
-This structure reinforces professional administrative practice rather than isolated technical exercises.
+This methodology encourages operational thinking rather than simply completing technical exercises.
 
----
-
-# Portfolio Roadmap
-
-The portfolio progresses through seven major phases.
-
-Each phase expands the scope of administration while building on previously acquired knowledge.
+The emphasis is placed on administrative decision-making, validation, troubleshooting, and evidence-based investigation.
 
 ---
 
-# Phase 1 — Identity Foundations ✅
+# Repository Roadmap
 
-Identity is the control plane of modern Microsoft environments.
+The portfolio progresses through seven structured phases.
+
+Each phase expands the scope of Microsoft administration while building directly upon previous knowledge.
+
+| Phase | Status |
+|-------|--------|
+| Identity Foundations | Completed |
+| Microsoft Infrastructure Administration | In Progress |
+| Hybrid Microsoft Identity Administration | Planned |
+| Microsoft 365 Administration | Planned |
+| Azure Infrastructure Administration (AZ-104 Alignment) | Planned |
+| Microsoft Enterprise Administration Integration | Planned |
+| Identity Security and Cloud Security Evolution | Future |
+
+This progression reflects how Microsoft administration skills naturally evolve from infrastructure management towards identity engineering and cloud security.
+
+---
+
+# Phase 1 — Identity Foundations
+
+Identity forms the control plane of modern Microsoft environments.
 
 For this reason, the portfolio begins with Microsoft Entra ID before expanding into broader infrastructure administration.
 
-Completed laboratories establish practical understanding of:
+These laboratories establish practical understanding of:
 
 - Authentication
 - Authorisation
 - Identity lifecycle
-- RBAC
+- Role-Based Access Control (RBAC)
 - Microsoft Graph
 - Identity governance
-- Administrative role validation
+- Privileged access validation
 - Azure resource organisation
+
+The knowledge gained during this phase provides the foundation for every subsequent laboratory.
 
 ---
 
-## Completed Laboratories
+# Completed Laboratories
 
-### 1.1 WSL2 Hybrid Security Laboratory Environment ✅
+## 1.1 WSL2 Hybrid Security Laboratory Environment
 
-Created a Windows/Linux laboratory environment supporting identity analysis, authentication investigation, and security troubleshooting.
+Created a Windows/Linux laboratory environment supporting authentication analysis, identity investigation, and security troubleshooting.
 
-**Skills demonstrated**
+Skills demonstrated:
 
 - Hybrid laboratory environments
 - Windows/Linux interoperability
-- Security investigation
 - Identity troubleshooting
+- Security investigation methodology
 
 ---
 
-### 1.2 Windows Authentication and Security Log Analysis ✅
+## 1.2 Windows Authentication and Security Log Analysis
 
-Investigated Windows Security Event Logs to understand authentication behaviour and user activity.
+Investigated Windows Security Event Logs to understand authentication behaviour, user sessions, and security events.
 
-**Skills demonstrated**
+Skills demonstrated:
 
 - Windows Event Viewer
 - Authentication analysis
@@ -275,152 +300,193 @@ Investigated Windows Security Event Logs to understand authentication behaviour 
 
 ---
 
-### 1.3 Microsoft Entra ID Authentication and RBAC Foundations ✅
+## 1.3 Microsoft Entra ID Authentication and RBAC Foundations
 
-Analysed Microsoft Entra ID authentication flows together with role-based access control.
+Analysed Microsoft Entra ID authentication flows together with Role-Based Access Control.
 
-**Skills demonstrated**
+Skills demonstrated:
 
-- Microsoft Entra ID
-- Authentication
-- RBAC
+- Microsoft Entra ID administration
+- Authentication concepts
+- RBAC fundamentals
 - Administrative permissions
 
 ---
 
-### 1.4 Identity Lifecycle and Access Change Analysis ✅
+## 1.4 Identity Lifecycle and Access Change Analysis
 
-Analysed identity lifecycle events using Microsoft audit logs.
+Performed audit log analysis to understand identity lifecycle events and access changes.
 
-**Skills demonstrated**
+Skills demonstrated:
 
-- Identity lifecycle
+- Identity lifecycle management
 - Audit log analysis
-- Governance
+- Identity governance
 - Access tracking
 
 ---
 
-### 1.5 Microsoft Entra ID Identity Operations: State vs Event Correlation ✅
+# 1.5 Microsoft Entra ID Identity Operations: State vs Event Correlation
 
-Validated current Microsoft Entra ID configuration using Microsoft Graph and compared identity state against historical administrative events.
+Validated the current Microsoft Entra ID configuration using Microsoft Graph API and compared the present identity state with historical administrative events recorded within audit logs.
 
-**Skills demonstrated**
+The objective was to understand the relationship between current identity configuration and historical identity activity.
 
-- Microsoft Graph
-- Identity validation
-- Administrative investigation
+Skills demonstrated:
+
+- Microsoft Graph fundamentals
+- Identity state validation
 - Event correlation
+- Identity troubleshooting
 
 ---
 
-### 1.6 Microsoft Entra ID Identity Security and Governance Analysis ✅
+# 1.6 Microsoft Entra ID Identity Security and Governance Analysis
 
-Performed identity-focused security analysis covering governance, privileged access, and administrative security practices.
+Performed identity-focused security analysis covering governance, administrative roles, privileged access, and security best practices.
 
-**Skills demonstrated**
+The laboratory focused on understanding how identity governance contributes to secure Microsoft enterprise environments.
+
+Skills demonstrated:
 
 - Identity governance
+- Administrative security
 - Security analysis
-- Administrative validation
 - Identity-focused investigation
 
 ---
 
-### 1.7 Global Administrator Role Assignment Validation ✅
+# 1.7 Microsoft Entra ID Global Administrator Role Assignment Validation
 
-Validated Microsoft Entra ID Global Administrator assignments and investigated apparent RBAC inconsistencies.
+Validated Global Administrator role assignments within Microsoft Entra ID and investigated whether duplicate portal entries represented genuine RBAC duplication or only a user interface representation.
 
-**Skills demonstrated**
+The investigation relied on Microsoft Graph identity attributes together with privileged role assignments to validate administrative consistency.
 
+Skills demonstrated:
+
+- Microsoft Entra ID administration
 - Privileged role validation
 - RBAC analysis
 - Administrative troubleshooting
-- Identity consistency
+- Identity consistency validation
 
 ---
 
-### 1.8 Azure Foundation Lab: Resource Group Creation and Environment Baseline ✅
+# 1.8 Azure Foundation Lab: Resource Group Creation and Environment Baseline
 
-Created and validated the Azure Resource Group used as the management boundary for future cloud laboratories.
+Created and validated an Azure Resource Group to establish the management boundary for future Azure laboratories.
 
-**Skills demonstrated**
+The laboratory prepared the Azure environment for networking, compute, storage, monitoring, governance, and automation exercises.
+
+Skills demonstrated:
 
 - Azure Resource Groups
 - Azure subscriptions
-- Resource organisation
+- Azure resource organisation
+- Azure Portal administration
 - Cloud environment preparation
 
 ---
 
-# Phase 2 — Microsoft Infrastructure Administration
+# Phase 2 — Microsoft Infrastructure Administration Foundations
 
-Having established identity foundations, the portfolio expands into traditional Microsoft infrastructure administration.
+Having established the identity foundation, the portfolio now expands into broader Microsoft infrastructure administration.
 
-The objective is to develop the practical Windows Server knowledge expected from junior Microsoft Systems Administrators.
+The objective is to develop the practical Windows Server knowledge expected of junior Microsoft Systems Administrators while strengthening understanding of the enterprise infrastructure that supports modern Microsoft environments.
 
-The majority of these laboratories are performed using the local VirtualBox environment, reflecting traditional enterprise infrastructure.
-
-## Planned Laboratories
-
-### 2.1 Windows Server Administration Foundations
-
-**Platform:** Oracle VirtualBox
-
-Topics:
-
-- Windows Server deployment
-- Administrative Tools
-- Server Roles
-- Features
-- Services
-- Event Viewer
-- Local administration
-- Windows troubleshooting
+Most laboratories within this phase are performed using Oracle VirtualBox, allowing unrestricted experimentation without consuming Azure compute resources.
 
 ---
 
-### 2.2 Active Directory Administration Fundamentals
+## 2.1 Windows Server Administration Foundations
 
-**Platform:** Oracle VirtualBox
+Platform
 
-Topics:
+Oracle VirtualBox
+
+Objective
+
+Develop practical Windows Server administration skills required for Microsoft infrastructure support roles.
+
+Planned areas:
+
+- Windows Server installation
+- Server roles and features
+- Administrative Tools
+- Computer Management
+- Services management
+- Event Viewer
+- Windows administration
+- Local user administration
+- System troubleshooting
+
+---
+
+## 2.2 Active Directory Administration Fundamentals
+
+Platform
+
+Oracle VirtualBox
+
+Objective
+
+Develop practical administration skills using Active Directory Domain Services (AD DS).
+
+Planned areas:
 
 - Active Directory Domain Services
 - Domain Controllers
+- Forests
+- Domains
+- Organisational Units
 - Users
 - Groups
-- Organisational Units
 - Administrative delegation
 - Group Policy
+- Permissions management
 
 ---
 
-### 2.3 PowerShell Administration Fundamentals
+## 2.3 PowerShell Administration Fundamentals
 
-**Platform:** Oracle VirtualBox
+Platform
 
-Topics:
+Oracle VirtualBox
+
+Objective
+
+Develop practical PowerShell administration capability for enterprise Microsoft environments.
+
+Planned areas:
 
 - PowerShell navigation
-- Administrative cmdlets
-- System information
-- User management
-- Basic automation
-- Administrative scripting
+- Cmdlets
+- Objects and pipelines
+- System information gathering
+- Service management
+- User administration
+- Basic scripting
+- Administrative automation
 
 ---
 
-### 2.4 Windows Server Security Fundamentals *(Planned)*
+## 2.4 Windows Server Security Fundamentals
 
-**Platform:** Oracle VirtualBox
+Platform
 
-Topics:
+Oracle VirtualBox
 
-- Windows Firewall
-- Event Logs
+Objective
+
+Develop practical understanding of Windows Server security administration.
+
+Planned areas:
+
+- Windows Defender Firewall
+- Windows Security
 - Local Security Policy
 - NTFS permissions
+- Event Logs
 - Security auditing
 - Administrative troubleshooting
 
@@ -428,52 +494,42 @@ Topics:
 
 # Phase 3 — Hybrid Microsoft Identity Administration
 
-Modern Microsoft environments combine traditional Windows infrastructure with cloud identity services.
+Modern Microsoft environments combine traditional infrastructure with cloud identity services.
 
-This phase demonstrates how Windows Server, Active Directory, Microsoft Entra ID, Microsoft 365, and Azure operate together within a hybrid enterprise environment.
+This phase demonstrates how Windows Server, Active Directory, Microsoft Entra ID, Microsoft 365, and Azure operate together within hybrid enterprise environments.
 
-Rather than treating each technology independently, the laboratories focus on understanding how identities, authentication, infrastructure, and cloud services interact throughout the enterprise.
+The objective is to understand identity management across both on-premises and cloud platforms.
 
-The objective is to develop practical hybrid administration skills that bridge traditional infrastructure and modern cloud identity.
+Platform
 
-**Primary Platform**
+Oracle VirtualBox and Microsoft Azure
 
-- Oracle VirtualBox
-- Microsoft Azure
-
----
-
-## Planned Areas
+Planned areas:
 
 - Active Directory and Microsoft Entra ID relationship
 - Hybrid identity architecture
 - Identity synchronisation concepts
 - Authentication flows
-- User lifecycle across environments
+- User lifecycle management
 - Hybrid administration
-- Administrative troubleshooting
-- User and group management
 - Identity validation
+- Administrative troubleshooting
 
 ---
 
 # Phase 4 — Microsoft 365 Administration
 
-Microsoft 365 administration extends identity management into everyday enterprise operations.
+Microsoft 365 administration extends identity management into day-to-day enterprise operations.
 
-This phase develops practical experience with Microsoft 365 administration tasks commonly performed by junior Microsoft administrators.
+This phase develops practical experience with the administrative tasks commonly performed by junior Microsoft administrators.
 
-Identity management remains the central theme, connecting users, licences, groups, cloud applications, and device identity.
+Identity management remains the central theme, connecting users, licences, cloud services, applications, and devices.
 
-**Primary Platform**
+Platform
 
-- Microsoft 365
-- Microsoft Entra ID
-- Microsoft Azure
+Microsoft 365 and Microsoft Azure
 
----
-
-## Planned Areas
+Planned areas:
 
 - User administration
 - Group administration
@@ -486,89 +542,90 @@ Identity management remains the central theme, connecting users, licences, group
 
 ---
 
-# Phase 5 — Azure Infrastructure Administration (AZ-104 Alignment)
+# Phase 5 — Azure Infrastructure Administration
 
-The Azure administration phase develops practical cloud administration capability aligned with the Microsoft Azure Administrator Associate certification.
+This phase develops practical Microsoft Azure administration aligned with the Microsoft Azure Administrator Associate (AZ-104) certification.
 
-Rather than deploying Azure resources unnecessarily, each laboratory focuses on understanding operational administration, governance, monitoring, and resource lifecycle management.
+Rather than deploying unnecessary resources, every laboratory focuses on operational administration, governance, monitoring, security, and resource lifecycle management.
 
-The Azure Resource Group established during Lab 1.8 provides the management boundary for all future Azure resources.
+The Azure Resource Group established in Lab 1.8 provides the management boundary for all future Azure laboratories.
 
 ---
 
 ## 5.1 Azure Virtual Network Architecture
 
-**Platform**
+Platform
 
 Microsoft Azure
 
-**Skills Demonstrated**
+Skills demonstrated:
 
 - Azure Virtual Networks
-- Subnets
-- Network segmentation
 - Address planning
-- Infrastructure design
+- Subnet design
+- Network segmentation
+- Infrastructure planning
 
 ---
 
 ## 5.2 Azure Network Security Groups
 
-**Platform**
+Platform
 
 Microsoft Azure
 
-**Skills Demonstrated**
+Skills demonstrated:
 
 - Network Security Groups
-- Traffic filtering
 - Cloud access control
-- Security configuration
+- Traffic filtering
+- Azure security configuration
 - Network administration
 
 ---
 
 ## 5.3 Azure Virtual Machine Administration
 
-**Platform**
+Platform
 
 Microsoft Azure
 
-**Skills Demonstrated**
+Skills demonstrated:
 
 - Azure Virtual Machines
 - Compute administration
-- Resource lifecycle
-- Virtual machine management
+- Resource lifecycle management
 - Operational administration
+- Infrastructure management
 
-Azure virtual machines are deployed only when required for specific laboratory exercises and are deallocated immediately after use to minimise operational costs.
+Azure virtual machines are deployed only when required by a laboratory and are deallocated after validation to minimise operational costs.
 
 ---
 
 ## 5.4 Azure Storage Administration
 
-**Platform**
+Platform
 
 Microsoft Azure
 
-**Skills Demonstrated**
+Skills demonstrated:
 
 - Storage Accounts
 - Blob Storage
-- Access management
-- Storage configuration
-- Data protection
+- File Storage
+- Data management
+- Access control
+- Cloud storage administration
 
 ---
 
 ## 5.5 Azure Monitoring and Operational Troubleshooting
 
-**Platform**
+Platform
 
 Microsoft Azure
 
-**Skills Demonstrated**
+Skills demonstrated:
 
 - Azure Monitor
 - Activity Logs
@@ -578,28 +635,28 @@ Microsoft Azure
 
 ---
 
-## 5.6 Azure Key Vault Administration *(Planned)*
+## 5.6 Azure Key Vault Administration
 
-**Platform**
+Platform
 
 Microsoft Azure
 
-**Skills Demonstrated**
+Planned areas:
 
 - Secret management
 - Certificate management
-- Secure administration
 - Key management
+- Secure administration
 
 ---
 
-## 5.7 Azure Policy and Governance *(Planned)*
+## 5.7 Azure Policy and Governance
 
-**Platform**
+Platform
 
 Microsoft Azure
 
-**Skills Demonstrated**
+Planned areas:
 
 - Azure Policy
 - Governance
@@ -608,13 +665,13 @@ Microsoft Azure
 
 ---
 
-## 5.8 Azure Automation and Update Manager *(Planned)*
+## 5.8 Azure Automation and Update Manager
 
-**Platform**
+Platform
 
 Microsoft Azure
 
-**Skills Demonstrated**
+Planned areas:
 
 - Azure Automation
 - Update Manager
@@ -625,62 +682,52 @@ Microsoft Azure
 
 # Phase 6 — Microsoft Enterprise Administration Integration
 
-This phase combines all previous technologies into realistic enterprise administration scenarios.
+This phase combines the knowledge developed throughout the portfolio into realistic enterprise administration scenarios.
 
-Rather than focusing on individual services, the laboratories demonstrate how Microsoft infrastructure is administered in production environments.
+Rather than focusing on individual Microsoft technologies, the laboratories demonstrate how Windows Server, Active Directory, Microsoft Entra ID, Microsoft 365, and Azure operate together within modern enterprise environments.
 
-The emphasis is placed on investigation, troubleshooting, validation, documentation, and operational reasoning.
+The objective is to develop practical administrative judgement by implementing, validating, troubleshooting, and documenting complete Microsoft administration workflows.
 
-**Hybrid Platform**
+Platform
 
-- Windows Server
-- Active Directory
-- Microsoft Entra ID
-- Microsoft 365
-- Microsoft Azure
+Oracle VirtualBox and Microsoft Azure
 
----
+Planned areas:
 
-## Planned Scenarios
-
-- User lifecycle management
+- User lifecycle management across multiple platforms
+- Identity troubleshooting
 - Authentication troubleshooting
-- Access troubleshooting
 - Resource access validation
-- Administrative documentation
 - Hybrid administration workflows
-- Configuration validation
+- Operational documentation
+- Enterprise support scenarios
+- Administrative best practices
 
 ---
 
 # Phase 7 — Identity Security and Cloud Security Evolution
 
-The final phase builds upon Microsoft administration foundations to develop identity-focused cloud security capability.
+The final phase builds upon the Microsoft administration foundation developed throughout the portfolio.
 
-This represents the long-term progression from Microsoft Systems Administration towards Identity Engineering and Detection Engineering.
+Rather than treating security as a separate discipline, this phase demonstrates how security naturally evolves from understanding infrastructure, identity, administration, and operational behaviour.
 
-The emphasis shifts from administration to security operations, monitoring, governance, and investigation.
+The objective is to develop practical capability in identity-focused cloud security.
 
-**Hybrid Platform**
+Platform
 
-- Windows Server
-- Microsoft Entra ID
-- Azure
-- Microsoft Sentinel
+Microsoft Azure
 
----
-
-## Planned Areas
+Planned areas:
 
 - Conditional Access
 - Privileged Identity Management (PIM)
 - Identity Governance
 - Access Reviews
-- Microsoft Defender
+- Microsoft Defender for Cloud
 - Microsoft Sentinel
 - Identity monitoring
-- Identity investigation
-- Detection engineering fundamentals
+- Security investigations
+- Identity-based Detection Engineering
 
 ---
 
@@ -688,34 +735,30 @@ The emphasis shifts from administration to security operations, monitoring, gove
 
 ## Microsoft Infrastructure Administration
 
-- Windows Server
+- Windows Server administration
 - Windows administration
 - Active Directory
-- Enterprise infrastructure
-- Microsoft administration
+- DNS
+- DHCP
+- Group Policy
+- File Services
+- IIS
 - Enterprise troubleshooting
+- Administrative tools
 
 ---
 
-## Microsoft 365 Administration
-
-- User administration
-- Group management
-- Licensing
-- Cloud services
-- Device identity
-- Identity integration
-
----
-
-## Microsoft Entra ID Administration
+## Microsoft Entra ID and Identity Administration
 
 - Authentication
+- Authorisation
 - Identity lifecycle
 - Role-Based Access Control (RBAC)
+- Microsoft Graph
 - Identity governance
-- Privileged access
-- Administrative validation
+- Administrative role management
+- Hybrid identity
+- Privileged access validation
 
 ---
 
@@ -723,143 +766,127 @@ The emphasis shifts from administration to security operations, monitoring, gove
 
 - Resource Groups
 - Virtual Networks
-- Virtual Machines
-- Storage
-- Monitoring
+- Network Security Groups
+- Azure Virtual Machines
+- Azure Storage
+- Azure Key Vault
+- Azure Monitor
+- Azure Policy
+- Azure Automation
+- Azure Update Manager
+- Log Analytics
 - Governance
-- Automation
-- Operational management
+- Operational administration
 
 ---
 
-## Automation and Operations
+## Microsoft 365 Administration
 
-- PowerShell
+- User administration
+- Group administration
+- Licensing
+- Identity integration
+- Administrative support
+- Service management
+- Operational troubleshooting
+
+---
+
+## PowerShell Administration
+
+- PowerShell fundamentals
 - Administrative automation
-- Log analysis
+- System administration
 - Configuration validation
-- Troubleshooting
+- Operational scripting
+
+---
+
+## Security and Operations
+
+- Authentication analysis
+- Identity investigation
+- Windows Event Log analysis
+- Azure Activity Log analysis
+- Administrative troubleshooting
+- Evidence-based investigation
 - Technical documentation
+- Security-aware administration
 
 ---
 
-# Skills Demonstrated
+# Architecture Model
 
-## Infrastructure Administration
+This portfolio reflects how modern Microsoft enterprise environments operate as interconnected systems.
 
-- Windows Server administration
-- Active Directory administration
-- Microsoft infrastructure management
-- Azure resource management
-- Enterprise troubleshooting
-
----
-
-## Identity Administration
-
-- Microsoft Entra ID
-- Authentication
-- Identity lifecycle
-- RBAC
-- Identity governance
-- Privileged access management
-
----
-
-## Security Operations
-
-- Security log analysis
-- Audit investigation
-- Identity behaviour analysis
-- Evidence-based troubleshooting
-- Operational documentation
-
----
-
-## Automation
-
-- PowerShell
-- Administrative scripting
-- Configuration management
-- Automation fundamentals
-
----
-
-# Microsoft Enterprise Architecture
-
+```text
+                    Security
+                         │
+                         ▼
+         Microsoft Sentinel
+         Microsoft Defender
+         Monitoring
+         Investigation
+                         │
+                         ▼
+                  Identity Layer
+          Microsoft Entra ID
+          Authentication
+          Authorisation
+          RBAC
+          Identity Governance
+                         │
+                         ▼
+               Infrastructure Layer
+      Windows Server
+      Active Directory
+      Microsoft 365
+      Azure Infrastructure
+      PowerShell
 ```
 
-Microsoft Infrastructure
-│
-├── Windows Server
-├── Active Directory
-├── DNS
-├── DHCP
-├── File Services
-├── Group Policy
-└── PowerShell
-│
-▼
-Hybrid Identity
-│
-├── Microsoft Entra ID
-├── Microsoft 365
-└── Azure
-│
-▼
-Cloud Administration
-│
-├── Resource Groups
-├── Networking
-├── Compute
-├── Storage
-├── Monitoring
-├── Governance
-└── Automation
-│
-▼
-Identity Security
-│
-├── Conditional Access
-├── Identity Governance
-├── Microsoft Defender
-└── Microsoft Sentinel
-│
-▼
-Detection Engineering
+The architecture follows three fundamental principles:
 
-```
+Infrastructure provides enterprise services.
+
+Identity controls access to those services.
+
+Security validates behaviour across the entire environment.
 
 ---
 
 # Evidence-Based Learning Approach
 
-Every laboratory follows a consistent professional methodology.
+Every laboratory within this repository is based upon controlled Microsoft environments rather than theoretical demonstrations.
 
-Each exercise demonstrates:
+Each laboratory includes:
 
 - A realistic administrative scenario
-- Practical implementation
+- Defined objectives
+- Structured implementation
 - Configuration validation
 - Troubleshooting
 - Evidence collection
-- Technical reasoning
-- Professional documentation
+- Technical documentation
 - Lessons learned
 
-The objective is to understand how Microsoft technologies are administered, supported, secured, and integrated under realistic operational conditions.
+This methodology reflects how Microsoft administrators work within operational environments.
+
+The emphasis is placed on understanding administrative reasoning rather than simply completing configuration tasks.
 
 ---
 
 # Certification Alignment
 
-## Microsoft AZ-104 — Azure Administrator Associate
+## Microsoft Azure Administrator Associate (AZ-104)
 
-Focus Areas
+The Azure administration section aligns with the practical knowledge expected of Azure Administrators.
+
+Primary focus areas include:
 
 - Azure administration
-- Networking
 - Compute
+- Networking
 - Storage
 - Monitoring
 - Governance
@@ -867,18 +894,21 @@ Focus Areas
 
 ---
 
-## Microsoft SC-300 — Identity and Access Administrator Associate
+## Microsoft Identity and Access Administrator (SC-300)
 
-Focus Areas
+The identity administration section aligns with Microsoft Entra ID administration and hybrid identity management.
 
-- Microsoft Entra ID
+Primary focus areas include:
+
 - Authentication
 - Identity lifecycle
 - RBAC
 - Identity governance
-- Privileged access
+- Hybrid identity
+- Administrative permissions
+- Microsoft Graph
 
-Future certifications will be selected according to practical career progression and demonstrated technical capability.
+Future certifications will be selected according to practical career progression rather than certification collection alone.
 
 ---
 
@@ -886,15 +916,15 @@ Future certifications will be selected according to practical career progression
 
 ## Current Objective
 
-**Junior Microsoft Systems Administrator with IAM Strength**
+Junior Microsoft Systems Administrator with Identity and Access Management (IAM) strength.
 
-Developing practical capability across:
+Current development focuses on:
 
 - Windows Server
 - Active Directory
 - Microsoft Entra ID
 - Microsoft 365
-- Microsoft Azure
+- Azure
 - Hybrid identity
 - PowerShell
 - Enterprise troubleshooting
@@ -902,85 +932,82 @@ Developing practical capability across:
 
 ---
 
-## Long-Term Objective
+## Long-Term Direction
 
-Progression towards:
+The portfolio is designed to support progression towards:
 
 - Microsoft Identity Engineering
-- Identity & Access Management (IAM)
-- Cloud Administration
+- Identity and Access Management (IAM)
+- Azure Administration
 - Cloud Security
 - Identity-focused Detection Engineering
 
+Each stage builds directly upon the previous one, creating a logical progression from infrastructure administration to identity-focused cloud security.
+
 ---
 
-# Portfolio Development Philosophy
+# Repository Structure
 
-The portfolio follows a structured progression from infrastructure administration towards identity-focused cloud security.
+The laboratories are organised according to a progressive learning pathway.
 
+```text
+1. Identity Foundations
+      ↓
+2. Microsoft Infrastructure Administration
+      ↓
+3. Hybrid Microsoft Identity Administration
+      ↓
+4. Microsoft 365 Administration
+      ↓
+5. Azure Infrastructure Administration
+      ↓
+6. Microsoft Enterprise Administration Integration
+      ↓
+7. Identity Security and Cloud Security Evolution
 ```
 
-Windows Server
-↓
+This structure reflects how Microsoft enterprise technologies are deployed, administered, and secured within modern organisations.
 
-Active Directory
-↓
+---
 
-Microsoft Entra ID
-↓
+# Portfolio Philosophy
 
-Hybrid Identity
-↓
+This repository is built around one central principle:
 
-Microsoft 365
-↓
+Understanding infrastructure first creates stronger administrators and better security professionals.
 
-Azure Administration
-↓
+The portfolio deliberately develops broad Microsoft administration capability before progressing into specialist identity engineering and cloud security.
 
-Identity Security
-↓
+Rather than learning isolated technologies, every laboratory contributes to a connected understanding of how Microsoft enterprise environments function as complete systems.
 
-Detection Engineering
-
-```
-
-Each phase builds directly upon previous knowledge.
-
-The objective is not simply to learn individual Microsoft technologies but to understand how they work together to support secure, reliable, and scalable enterprise environments.
+The objective is to become a Microsoft professional who understands not only how to configure enterprise technologies, but also how to troubleshoot them, secure them, and explain them through clear technical documentation.
 
 ---
 
 # Core Principles
 
-### Microsoft infrastructure provides the foundation.
+Microsoft infrastructure provides the operational foundation.
 
-Windows Server, Active Directory, Microsoft 365, and Azure form the enterprise platform on which organisations operate.
+Identity controls access to enterprise resources.
 
-### Identity controls access.
+Cloud services extend enterprise capability.
 
-Authentication, authorisation, RBAC, and identity governance determine who can access enterprise resources.
+Security validates administrative and user behaviour.
 
-### Security validates behaviour.
+Evidence-based investigation supports effective troubleshooting.
 
-Monitoring, logging, investigation, governance, and operational visibility help ensure systems remain secure and compliant.
+Practical experience develops professional capability.
 
-### Practical experience drives professional growth.
-
-Hands-on laboratories, structured troubleshooting, evidence-based validation, and clear technical documentation develop the skills required for modern Microsoft administration.
+Continuous learning drives long-term progression.
 
 ---
 
-# Repository Commitment
+# Repository Status
 
-Every completed laboratory included in this repository demonstrates:
+This portfolio is under continuous development.
 
-- Practical implementation
-- Administrative reasoning
-- Configuration validation
-- Troubleshooting methodology
-- Professional documentation
-- Lessons learned
+New laboratories will be added as practical skills expand across Microsoft infrastructure administration, hybrid identity, Azure administration, Microsoft 365, and identity-focused cloud security.
 
-This portfolio is intended to reflect the continuous development of practical Microsoft administration capability, progressing from foundational infrastructure administration towards identity-focused cloud security and detection engineering.
+The repository is intended to demonstrate consistent technical progression through practical implementation, structured investigation, validation, troubleshooting, and professional documentation.
 
+---
