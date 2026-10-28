@@ -893,13 +893,23 @@ The emphasis is placed on understanding administrative reasoning rather than sim
 
 # Certification Alignment
 
-This portfolio supports practical skills development and preparation for relevant industry certifications. Certification alignment reflects the technical topics covered by the portfolio; it does not imply that a certification has been achieved.
+The certification pathway supports two complementary objectives: securing an entry-level IT position and developing the technical foundation for long-term progression into cloud administration, identity security, and cloud security engineering.
 
-## Cisco Certified Network Associate (CCNA)
+The immediate career objective is to gain practical industry experience in data centre operations, networking, IT support, or systems administration. The longer-term objective is to build upon that experience through cloud administration, Identity and Access Management (IAM), and cloud security specialisation.
 
-CCNA preparation supports the development of networking knowledge relevant to entry-level IT infrastructure, network support, and field technician roles.
+The certifications below support different aspects of this development. They are complementary learning objectives, not a rigid sequence that must be completed before applying for employment.
 
-Primary focus areas include:
+---
+
+## 1. Cisco Certified Network Associate (CCNA)
+
+**Primary focus:** Networking fundamentals and infrastructure connectivity.
+
+**Career relevance:** Data Centre Technician, Network Field Technician, Junior Network Support Technician, and Junior Infrastructure Support.
+
+CCNA preparation develops the networking knowledge required to understand, configure, and troubleshoot enterprise networks.
+
+Key areas of development include:
 
 - TCP/IP networking
 - IPv4 addressing and subnetting
@@ -911,15 +921,42 @@ Primary focus areas include:
 - Network security fundamentals
 - Cisco Packet Tracer laboratories
 
-These skills provide a networking foundation for infrastructure administration, data centre operations, and future cloud networking work.
+Networking knowledge provides a foundation for infrastructure troubleshooting and supports future work with cloud networking and hybrid environments.
 
 ---
 
-## Microsoft Certified: Azure Administrator Associate (AZ-104)
+## 2. CompTIA Security+ (SY0-701)
 
-The Azure administration laboratories develop practical skills aligned with the Azure Administrator Associate certification.
+**Primary focus:** General cybersecurity principles and practices.
 
-Primary focus areas include:
+**Career relevance:** Security-aware IT support, infrastructure administration, networking, and future security roles.
+
+Security+ develops a broad understanding of cybersecurity concepts applicable to modern IT environments.
+
+Key areas of development include:
+
+- General security concepts
+- Threats, vulnerabilities, and mitigations
+- Security architecture
+- Network and infrastructure security
+- Identity and access management
+- Security operations and incident response
+- Risk management and governance
+- Cloud and hybrid environment security
+
+This knowledge supports secure infrastructure administration and provides a foundation for more specialised identity and cloud security work.
+
+---
+
+## 3. Microsoft Certified: Azure Administrator Associate (AZ-104)
+
+**Primary focus:** Microsoft Azure infrastructure administration.
+
+**Career relevance:** Junior Infrastructure Support, Junior Systems Administrator, and progression towards cloud administration.
+
+AZ-104 supports the development of practical skills for administering Microsoft Azure environments.
+
+Key areas of development include:
 
 - Azure identity and access management
 - Resource management and governance
@@ -929,15 +966,21 @@ Primary focus areas include:
 - Monitoring and operational troubleshooting
 - Resource lifecycle management
 
-The objective is to develop practical Azure administration skills while understanding the operational principles behind Microsoft cloud environments.
+The objective is to understand how cloud infrastructure is deployed, administered, monitored, and maintained.
+
+These skills build upon networking and systems administration knowledge while supporting progression towards cloud administration.
 
 ---
 
-## Microsoft Certified: Identity and Access Administrator Associate (SC-300)
+## 4. Microsoft Certified: Identity and Access Administrator Associate (SC-300)
 
-The identity administration laboratories develop Microsoft Entra ID knowledge relevant to the Identity and Access Administrator certification.
+**Primary focus:** Microsoft Entra ID and identity and access administration.
 
-Primary focus areas include:
+**Career relevance:** Microsoft administration, Identity and Access Management (IAM), and future identity security roles.
+
+SC-300 develops knowledge and practical skills related to managing identities and securing access to organisational resources.
+
+Key areas of development include:
 
 - Microsoft Entra ID identity management
 - Authentication and access management
@@ -950,19 +993,48 @@ Primary focus areas include:
 - Microsoft Graph
 - Identity monitoring and investigation
 
-The objective is to build a foundation for future specialisation in Identity and Access Management (IAM), cloud identity security, and identity-focused detection engineering.
+These capabilities support the transition from general infrastructure administration towards identity-focused administration and security.
+
+---
+
+## 5. Microsoft Certified: Cloud and AI Security Engineer Associate (SC-500)
+
+**Primary focus:** Cloud and AI security engineering across Microsoft environments.
+
+**Career relevance:** Longer-term progression towards cloud security engineering and identity-focused security specialisation.
+
+SC-500 represents a longer-term development objective built upon practical experience in networking, infrastructure administration, Azure, identity, and cybersecurity.
+
+Key areas of development include:
+
+- Cloud security architecture and operations
+- Identity and access security
+- Privileged access and governance
+- Cloud networking and infrastructure security
+- Data and secrets protection
+- Microsoft Defender security capabilities
+- Security posture management
+- Microsoft Sentinel and security monitoring
+- Security investigation and response
+- Cloud threat detection and mitigation
+
+The objective is to develop the ability to secure and investigate cloud and hybrid environments by understanding how their identities, infrastructure, services, and security controls interact.
 
 ---
 
 ## Certification Development Strategy
 
-Certification preparation will progress alongside practical laboratory work and the development of job-ready technical skills.
+The certifications support a broader professional development strategy rather than an exam-first approach.
 
-Priority will be given to certifications that support current employment opportunities and the longer-term progression towards cloud administration and cloud security.
+The immediate priority is to secure an entry-level IT position and develop practical experience in networking, data centre operations, technical support, or systems administration.
 
-The selection and timing of future certifications will be guided by practical experience, demonstrated technical competence, and relevant career opportunities rather than certification collection alone.
+CCNA and Security+ support foundational networking and security knowledge. AZ-104 develops cloud administration capability, while SC-300 builds specialist identity and access administration knowledge. SC-500 supports the longer-term ambition to progress into cloud security engineering.
 
-Portfolio laboratories demonstrate practical learning and support exam preparation; they do not, by themselves, establish certification achievement.
+The order of certification preparation may change according to employment opportunities, existing knowledge, practical experience, and the technical requirements of target roles.
+
+Practical laboratory work, troubleshooting, documentation, and professional experience remain central to this development.
+
+**Portfolio status:** Certification alignment indicates intended learning and preparation. It does not imply that a certification has been achieved. Laboratory work should be described according to its actual implementation, testing, and validation status.
 
 ---
 
