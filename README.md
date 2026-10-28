@@ -931,33 +931,45 @@ Future certifications will be selected according to practical career progression
 
 ## Current Objective
 
-Junior Microsoft Systems Administrator with Identity and Access Management (IAM) strength.
+Current Objective
 
-Current development focuses on:
+Secure an entry-level IT position that provides practical experience in IT infrastructure, networking, technical support, or systems administration.
 
-- Windows Server
-- Active Directory
-- Microsoft Entra ID
-- Microsoft 365
-- Azure
-- Hybrid identity
-- PowerShell
-- Enterprise troubleshooting
-- Security-aware administration
+Relevant opportunities include:
 
----
+Data Centre Technician
+Network Field Technician
+Junior Network Support Technician
+IT Support / Help Desk (N1)
+Junior Infrastructure Support
+Junior Systems Administrator
 
-## Long-Term Direction
+The immediate priority is to develop professional experience, strengthen troubleshooting skills, and understand how IT systems operate in real-world environments.
 
-The portfolio is designed to support progression towards:
+Current technical development focuses on:
 
-- Microsoft Identity Engineering
-- Identity and Access Management (IAM)
-- Azure Administration
-- Cloud Security
-- Identity-focused Detection Engineering
+Windows and Linux fundamentals
+Networking, including TCP/IP, IPv4 subnetting, DNS, DHCP, routing, and switching
+Server hardware and infrastructure
+Windows Server and Active Directory
+PowerShell administration
+Microsoft Entra ID and identity administration
+Microsoft Azure administration
+Technical documentation and evidence-based troubleshooting
+Long-Term Direction
 
-Each stage builds directly upon the previous one, creating a logical progression from infrastructure administration to identity-focused cloud security.
+The portfolio supports progression towards:
+
+Cloud Administration
+Microsoft Azure Administration
+Microsoft Identity Engineering
+Identity and Access Management (IAM)
+Cloud Security Engineering
+Identity-focused Detection Engineering
+
+The long-term objective is to build on practical infrastructure, networking, and systems administration experience before progressing towards cloud administration and specialist cloud security.
+
+The precise career path will depend on professional opportunities, practical experience, and the technical skills developed along the way.
 
 ---
 
