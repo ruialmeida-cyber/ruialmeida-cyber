@@ -238,14 +238,15 @@ The portfolio follows a progressive learning pathway from foundational identity 
 
 The phases are designed to develop complementary skills rather than represent a rigid sequence of career stages. Practical opportunities, existing knowledge, and technical requirements may influence the order in which individual laboratories are completed.
 
-Phase	Focus	Status
-1	Identity Foundations	Completed
-2	Microsoft Infrastructure Administration	In Progress
-3	Hybrid Microsoft Identity Administration	Planned
-4	Microsoft 365 Administration	Planned
-5	Azure Infrastructure Administration (AZ-104 Alignment)	Planned
-6	Microsoft Enterprise Administration Integration	Planned
-7	Identity Security and Cloud Security Evolution	Future
+| Phase | Focus | Status |
+|---|---|---|
+| 1 | Identity Foundations | Completed |
+| 2 | Microsoft Infrastructure Administration | In Progress |
+| 3 | Hybrid Microsoft Identity Administration | Planned |
+| 4 | Microsoft 365 Administration | Planned |
+| 5 | Azure Infrastructure Administration (AZ-104 Alignment) | Planned |
+| 6 | Microsoft Enterprise Administration Integration | Planned |
+| 7 | Identity Security and Cloud Security Evolution | Future |
 
 Networking fundamentals, including TCP/IP, IPv4 subnetting, DNS, DHCP, routing, switching, and connectivity troubleshooting, support the infrastructure and Azure networking components of this roadmap.
 
