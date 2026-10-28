@@ -14,26 +14,38 @@ A structured, hands-on portfolio demonstrating practical Microsoft infrastructur
 
 # Career Focus
 
-## Junior Microsoft Systems Administrator with Identity and Access Management (IAM) Strength
+Current Direction — IT Infrastructure, Networking and Systems Administration
 
-This repository documents the progressive development of practical Microsoft enterprise administration skills through structured laboratory exercises and technical documentation.
+This repository documents the progressive development of practical IT infrastructure, networking, Microsoft systems administration, cloud administration, and identity security skills.
 
-The objective is to build the practical knowledge expected of a junior Microsoft Systems Administrator while establishing a strong foundation in hybrid identity, cloud administration, and security-aware operations.
+The immediate objective is to secure an entry-level IT position that provides practical industry experience and a foundation for continued technical development.
 
-The portfolio focuses on developing capability across:
+Relevant entry points include:
 
-- Windows Server Administration
-- Active Directory
-- Microsoft Entra ID
-- Microsoft 365
-- Microsoft Azure
-- Hybrid Identity
-- Identity and Access Management (IAM)
-- PowerShell Administration
-- Enterprise Troubleshooting
-- Technical Documentation
+Data Centre Technician
+Network Field Technician
+Junior Network Support Technician
+IT Support / Help Desk (N1)
+Junior Infrastructure Support
+Junior Systems Administrator
 
-The long-term objective is to progress naturally from Microsoft infrastructure administration into Microsoft Identity Engineering and cloud security.
+The specific entry point may vary according to available opportunities. The priority is to develop practical troubleshooting skills, understand real-world infrastructure, and gain professional experience.
+
+The portfolio supports this objective through structured laboratory exercises covering Windows administration, networking fundamentals, server infrastructure, PowerShell, Microsoft Azure, and identity administration.
+
+Long-Term Direction — Cloud Administration and Cloud Security
+
+The long-term objective is to progress towards cloud administration and cloud security engineering, with particular emphasis on:
+
+Microsoft Azure administration
+Microsoft Entra ID and Identity and Access Management (IAM)
+Cloud identity security
+Security monitoring and investigation
+Identity-focused detection engineering
+
+This progression is intended to build on practical infrastructure and administration experience rather than treat cloud security as an isolated discipline.
+
+The portfolio therefore develops foundational operational knowledge before progressing towards specialist cloud identity security and detection engineering.
 
 ---
 
@@ -233,21 +245,24 @@ The emphasis is placed on administrative decision-making, validation, troublesho
 
 # Repository Roadmap
 
-The portfolio progresses through seven structured phases.
+The portfolio follows a progressive learning pathway from foundational identity and infrastructure knowledge towards enterprise administration and cloud security.
 
-Each phase expands the scope of Microsoft administration while building directly upon previous knowledge.
+The phases are designed to develop complementary skills rather than represent a rigid sequence of career stages. Practical opportunities, existing knowledge, and technical requirements may influence the order in which individual laboratories are completed.
 
-| Phase | Status |
-|-------|--------|
-| Identity Foundations | Completed |
-| Microsoft Infrastructure Administration | In Progress |
-| Hybrid Microsoft Identity Administration | Planned |
-| Microsoft 365 Administration | Planned |
-| Azure Infrastructure Administration (AZ-104 Alignment) | Planned |
-| Microsoft Enterprise Administration Integration | Planned |
-| Identity Security and Cloud Security Evolution | Future |
+Phase	Focus	Status
+1	Identity Foundations	Completed
+2	Microsoft Infrastructure Administration	In Progress
+3	Hybrid Microsoft Identity Administration	Planned
+4	Microsoft 365 Administration	Planned
+5	Azure Infrastructure Administration (AZ-104 Alignment)	Planned
+6	Microsoft Enterprise Administration Integration	Planned
+7	Identity Security and Cloud Security Evolution	Future
 
-This progression reflects how Microsoft administration skills naturally evolve from infrastructure management towards identity engineering and cloud security.
+Networking fundamentals, including TCP/IP, IPv4 subnetting, DNS, DHCP, routing, switching, and connectivity troubleshooting, support the infrastructure and Azure networking components of this roadmap.
+
+CCNA preparation and practical networking exercises complement the portfolio by developing the foundational knowledge required to understand how enterprise systems communicate.
+
+The roadmap represents a learning architecture, not a requirement to complete every phase before applying for IT positions.
 
 ---
 
