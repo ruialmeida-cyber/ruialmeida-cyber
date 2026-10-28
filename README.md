@@ -14,38 +14,27 @@ A structured, hands-on portfolio demonstrating practical Microsoft infrastructur
 
 # Career Focus
 
-Current Direction — IT Infrastructure, Networking and Systems Administration
-
-This repository documents the progressive development of practical IT infrastructure, networking, Microsoft systems administration, cloud administration, and identity security skills.
-
-The immediate objective is to secure an entry-level IT position that provides practical industry experience and a foundation for continued technical development.
+The immediate objective of this portfolio is to support applications for entry-level IT infrastructure, networking, technical support, and systems administration roles.
 
 Relevant entry points include:
 
-Data Centre Technician
-Network Field Technician
-Junior Network Support Technician
-IT Support / Help Desk (N1)
-Junior Infrastructure Support
-Junior Systems Administrator
+- Data Centre Technician
+- Network Field Technician
+- Junior Network Support Technician
+- IT Support / Help Desk (N1)
+- Junior Infrastructure Support
+- Junior Systems Administrator
 
-The specific entry point may vary according to available opportunities. The priority is to develop practical troubleshooting skills, understand real-world infrastructure, and gain professional experience.
+The longer-term direction is to develop towards:
 
-The portfolio supports this objective through structured laboratory exercises covering Windows administration, networking fundamentals, server infrastructure, PowerShell, Microsoft Azure, and identity administration.
+- Microsoft Azure Administration
+- Cloud Administration
+- Microsoft Identity and Access Management (IAM)
+- Identity Engineering
+- Cloud Security Engineering
+- Identity-focused Detection Engineering
 
-Long-Term Direction — Cloud Administration and Cloud Security
-
-The long-term objective is to progress towards cloud administration and cloud security engineering, with particular emphasis on:
-
-Microsoft Azure administration
-Microsoft Entra ID and Identity and Access Management (IAM)
-Cloud identity security
-Security monitoring and investigation
-Identity-focused detection engineering
-
-This progression is intended to build on practical infrastructure and administration experience rather than treat cloud security as an isolated discipline.
-
-The portfolio therefore develops foundational operational knowledge before progressing towards specialist cloud identity security and detection engineering.
+The portfolio prioritises practical infrastructure and identity administration skills while building towards these longer-term specialisations.
 
 ---
 
