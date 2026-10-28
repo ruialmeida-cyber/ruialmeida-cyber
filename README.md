@@ -893,37 +893,76 @@ The emphasis is placed on understanding administrative reasoning rather than sim
 
 # Certification Alignment
 
-## Microsoft Azure Administrator Associate (AZ-104)
+This portfolio supports practical skills development and preparation for relevant industry certifications. Certification alignment reflects the technical topics covered by the portfolio; it does not imply that a certification has been achieved.
 
-The Azure administration section aligns with the practical knowledge expected of Azure Administrators.
+## Cisco Certified Network Associate (CCNA)
+
+CCNA preparation supports the development of networking knowledge relevant to entry-level IT infrastructure, network support, and field technician roles.
 
 Primary focus areas include:
 
-- Azure administration
-- Compute
-- Networking
-- Storage
-- Monitoring
-- Governance
-- Identity integration
+- TCP/IP networking
+- IPv4 addressing and subnetting
+- Ethernet and switching
+- Routing fundamentals
+- VLANs and trunking
+- DNS and DHCP
+- Network connectivity troubleshooting
+- Network security fundamentals
+- Cisco Packet Tracer laboratories
+
+These skills provide a networking foundation for infrastructure administration, data centre operations, and future cloud networking work.
 
 ---
 
-## Microsoft Identity and Access Administrator (SC-300)
+## Microsoft Certified: Azure Administrator Associate (AZ-104)
 
-The identity administration section aligns with Microsoft Entra ID administration and hybrid identity management.
+The Azure administration laboratories develop practical skills aligned with the Azure Administrator Associate certification.
 
 Primary focus areas include:
 
-- Authentication
-- Identity lifecycle
-- RBAC
-- Identity governance
-- Hybrid identity
-- Administrative permissions
-- Microsoft Graph
+- Azure identity and access management
+- Resource management and governance
+- Virtual networking and network security
+- Compute and virtual machine administration
+- Storage administration
+- Monitoring and operational troubleshooting
+- Resource lifecycle management
 
-Future certifications will be selected according to practical career progression rather than certification collection alone.
+The objective is to develop practical Azure administration skills while understanding the operational principles behind Microsoft cloud environments.
+
+---
+
+## Microsoft Certified: Identity and Access Administrator Associate (SC-300)
+
+The identity administration laboratories develop Microsoft Entra ID knowledge relevant to the Identity and Access Administrator certification.
+
+Primary focus areas include:
+
+- Microsoft Entra ID identity management
+- Authentication and access management
+- User and group administration
+- Role-Based Access Control (RBAC)
+- Privileged Identity Management (PIM)
+- Identity governance and access reviews
+- Identity lifecycle management
+- Hybrid identity
+- Microsoft Graph
+- Identity monitoring and investigation
+
+The objective is to build a foundation for future specialisation in Identity and Access Management (IAM), cloud identity security, and identity-focused detection engineering.
+
+---
+
+## Certification Development Strategy
+
+Certification preparation will progress alongside practical laboratory work and the development of job-ready technical skills.
+
+Priority will be given to certifications that support current employment opportunities and the longer-term progression towards cloud administration and cloud security.
+
+The selection and timing of future certifications will be guided by practical experience, demonstrated technical competence, and relevant career opportunities rather than certification collection alone.
+
+Portfolio laboratories demonstrate practical learning and support exam preparation; they do not, by themselves, establish certification achievement.
 
 ---
 
