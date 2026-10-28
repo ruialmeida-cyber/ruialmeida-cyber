@@ -931,41 +931,42 @@ Future certifications will be selected according to practical career progression
 
 ## Current Objective
 
-Current Objective
-
 Secure an entry-level IT position that provides practical experience in IT infrastructure, networking, technical support, or systems administration.
 
 Relevant opportunities include:
 
-Data Centre Technician
-Network Field Technician
-Junior Network Support Technician
-IT Support / Help Desk (N1)
-Junior Infrastructure Support
-Junior Systems Administrator
+- Data Centre Technician
+- Network Field Technician
+- Junior Network Support Technician
+- IT Support / Help Desk (N1)
+- Junior Infrastructure Support
+- Junior Systems Administrator
 
 The immediate priority is to develop professional experience, strengthen troubleshooting skills, and understand how IT systems operate in real-world environments.
 
 Current technical development focuses on:
 
-Windows and Linux fundamentals
-Networking, including TCP/IP, IPv4 subnetting, DNS, DHCP, routing, and switching
-Server hardware and infrastructure
-Windows Server and Active Directory
-PowerShell administration
-Microsoft Entra ID and identity administration
-Microsoft Azure administration
-Technical documentation and evidence-based troubleshooting
-Long-Term Direction
+- Windows and Linux fundamentals
+- Networking, including TCP/IP, IPv4 subnetting, DNS, DHCP, routing, and switching
+- Server hardware and infrastructure
+- Windows Server and Active Directory
+- PowerShell administration
+- Microsoft Entra ID and identity administration
+- Microsoft Azure administration
+- Technical documentation and evidence-based troubleshooting
+
+---
+
+## Long-Term Direction
 
 The portfolio supports progression towards:
 
-Cloud Administration
-Microsoft Azure Administration
-Microsoft Identity Engineering
-Identity and Access Management (IAM)
-Cloud Security Engineering
-Identity-focused Detection Engineering
+- Cloud Administration
+- Microsoft Azure Administration
+- Microsoft Identity Engineering
+- Identity and Access Management (IAM)
+- Cloud Security Engineering
+- Identity-focused Detection Engineering
 
 The long-term objective is to build on practical infrastructure, networking, and systems administration experience before progressing towards cloud administration and specialist cloud security.
 
